@@ -52,9 +52,9 @@ function Tool() {
         <Grid item xs={12} md={3}>
           <Paper className={classes.paper} >
           <MButton>
-          <h1>Before you judge a man, walk a mile in his shoes.
-           After that who cares?... 
-           He’s a mile away and you’ve got his shoes!
+          <h1>ज़रुरत से ज्यादा भगवान को याद मत किया करो क्योंकि…
+              किसी दिन भगवान ने याद कर लिया तो..??
+              लेने के देने पड़ जायेंगे ।😝😛😛😛
            </h1>
            </MButton>
            </Paper>
