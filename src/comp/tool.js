@@ -48,7 +48,49 @@ function Tool() {
         <Container>
         <MyButton style={{marginTop:10}}>Jokes</MyButton>
     <div className={classes.root}>
-      <Grid container spacing={3} style={{marginTop:30}}>
+      <Grid container  spacing={3} style={{marginTop:30}}>
+        <Grid item xs={12} md={3}>
+          <Paper className={classes.paper} >
+          <MButton>
+          <h1>Before you judge a man, walk a mile in his shoes.
+           After that who cares?... 
+           He’s a mile away and you’ve got his shoes!
+           </h1>
+           </MButton>
+           </Paper>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Paper className={classes.paper}>
+          <MButton>
+          <h1>
+          “Men marry women with the hope they will never change.
+           Women marry men with the hope they will change.
+            Invariably they are both disappointed.”
+            </h1>
+            </MButton>
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Paper className={classes.paper}>
+          <MButton>
+          <h1>
+          “It would be nice to spend billions on schools and roads,
+           but right now that money is desperately needed for political ads.”
+           </h1>
+           </MButton>
+          </Paper>
+        </Grid>
+        <Grid item xs={12} md={3}>
+          <Paper className={classes.paper}>
+          <MButton>
+          <h1>
+          “The average dog is a nicer person than the average person.”
+          </h1>
+          </MButton>
+          </Paper>
+        </Grid>
+      </Grid>
+      <Grid container spacing={3}>
         <Grid item xs={12} md={3}>
           <Paper className={classes.paper} >
           <MButton>
